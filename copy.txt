@@ -1,0 +1,26 @@
+Automated Trading in DAX & S&P 500, Perfected
+IndexNavigator is a fully autonomous trading bot focused on the DAX and S&P 500. Built for consistency and security, it delivers verified results through real-time market execution.
+
+Key Features
+1. Live Market Performance
+No simulations—real trades, real results.
+
+2. Precision Algorithms
+Tailored to DAX & S&P 500 behavior using proven technical signals.
+
+3. 24/5 Automated Execution
+Runs during pre-market and market hours with no manual input.
+
+4. Built-In Risk Management
+Every position includes a stop-loss. No use of martingale or other high-risk tactics.
+
+5. Volatility-Adaptive Logic
+Adjusts to market conditions to maintain strategy integrity.
+
+Market Focus
+DAX 40 (Germany): Optimized for European session.
+
+S&P 500 (US): Targets intraday & swing trades during US hours.
+
+Experience Live Trading Automation
+Track a real, profitable trading example—powered by IndexNavigator.
