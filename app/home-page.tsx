@@ -53,14 +53,60 @@ export default function Home() {
           </div>
         </nav>
         
-        <main className="flex flex-col gap-[24px] w-full">
-          <div className="py-4 px-6 border-l-4 border-[var(--primary-solid)] bg-gradient-to-r from-white to-gray-50 rounded-sm shadow-sm max-w-2xl w-full mx-auto sm:mx-0">
+        <main className="flex flex-col gap-[24px] w-full">          <div className="py-4 px-6 border-l-4 border-[var(--primary-solid)] bg-gradient-to-r from-white to-gray-50 rounded-sm shadow-sm max-w-2xl w-full mx-auto sm:mx-0">
             <p className="text-xl font-semibold mb-2 font-[family-name:var(--font-geist-sans)] tracking-tight">Automated Trading in DAX & S&P 500, Perfected</p>
             <p className="text-sm">
               IndexNavigator is a fully autonomous trading bot focused on the DAX and S&P 500. Built for consistency and security, it delivers verified results through real-time market execution.
             </p>
-          </div>          
-            <h2 className="text-xl font-bold mt-4 font-[family-name:var(--font-geist-sans)]">Key Features</h2>
+          </div>
+
+          <h2 className="text-xl font-bold mt-6 font-[family-name:var(--font-geist-sans)]">2025 Monthly Performance</h2>
+          <div className="bg-white rounded-lg border border-gray-200 max-w-2xl w-full mx-auto sm:mx-0 overflow-hidden">
+            <div className="grid grid-cols-4 sm:grid-cols-9 gap-0.5 p-2">
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Apr</span>
+                <span className="text-sm font-bold text-green-600">44.8%</span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">May</span>
+                <span className="text-xs text-gray-400">Pending</span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Jun</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Jul</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Aug</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Sep</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Oct</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Nov</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+              <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
+                <span className="text-xs font-medium mb-1">Dec</span>
+                <span className="text-xs text-gray-400"></span>
+              </div>
+            </div>
+            <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
+              <span className="text-sm font-semibold">All time (updated 9 May 2025):</span>
+              <span className="text-sm font-bold text-green-600">+88.8% ROI</span>
+            </div>
+          </div>
+          
+          <h2 className="text-xl font-bold mt-6 font-[family-name:var(--font-geist-sans)]">Key Features</h2>
           <div className="grid grid-cols-1 gap-3 mt-3 max-w-2xl w-full mx-auto sm:mx-0">
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
