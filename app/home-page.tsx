@@ -1,12 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-6 pb-20 gap-8 sm:p-12 md:p-20">
-      <div className="w-full max-w-5xl mx-auto">
-        <nav className="flex flex-col w-full mb-6">
-          <h1 className="text-2xl font-bold font-[family-name:var(--font-geist-sans)] mb-3">IndexNavigator</h1>          <div className="flex gap-6 items-center">
-            <a
+      <div className="w-full max-w-5xl mx-auto">        <nav className="flex flex-col w-full mb-6">
+          <h1 className="text-2xl font-bold font-[family-name:var(--font-geist-sans)] mb-3">IndexNavigator</h1>          <div className="flex gap-6 items-center">            <Link
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
               href="/faq"
               rel="noopener noreferrer"
@@ -20,25 +19,26 @@ export default function Home() {
                 className="text-[var(--primary-solid)]"
               />
               FAQ
-            </a>
+            </Link>
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
-              href="/performance"
+              href="https://t.me/indexnavigator"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Image
                 aria-hidden
-                src="/chart.svg"
-                alt="Chart icon"
+                src="/telegram.svg"
+                alt="Telegram icon"
                 width={16}
                 height={16}
-                className="text-[var(--primary-solid)]"
               />
-              Performance
+              Telegram
             </a>
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
               href="https://ct.spotware.com/copy/strategy/100843"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Image
@@ -65,8 +65,9 @@ export default function Home() {
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
                 <span className="font-semibold text-sm/6">→ Live Market Performance</span>
-              </div>
-              <p className="text-sm/6">No simulations—real trades, real results.</p>
+              </div>                <p className="text-sm/6">
+                No simulations—real trades, real results.
+                </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
@@ -84,7 +85,15 @@ export default function Home() {
               <div className="mb-1">
                 <span className="font-semibold text-sm/6">→ Built-In Risk Management</span>
               </div>
-              <p className="text-sm/6">Every position includes a stop-loss. No use of martingale or other high-risk tactics.</p>
+                <p className="text-sm/6">
+                Every position includes a stop-loss. No use of martingale or other high-risk tactics.{" "}
+                <a
+                  href="/faq#risk-management"
+                  className="text-[var(--primary-solid)] hover:underline hover:underline-offset-4 transition-colors hover:text-[var(--primary-gradient-from)]"
+                >
+                  Learn about risk management.
+                </a>
+                </p>
             </div>
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
