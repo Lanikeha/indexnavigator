@@ -19,8 +19,7 @@ export default function Home() {
                 className="text-[var(--primary-solid)]"
               />
               FAQ
-            </Link>
-            <a
+            </Link>            <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
               href="https://t.me/indexnavigator"
               target="_blank"
@@ -33,7 +32,7 @@ export default function Home() {
                 width={16}
                 height={16}
               />
-              Telegram
+              Telegram (weekly updates)
             </a>
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
@@ -56,7 +55,13 @@ export default function Home() {
         <main className="flex flex-col gap-[24px] w-full">          <div className="py-4 px-6 border-l-4 border-[var(--primary-solid)] bg-gradient-to-r from-white to-gray-50 rounded-sm shadow-sm max-w-2xl w-full mx-auto sm:mx-0">
             <p className="text-xl font-semibold mb-2 font-[family-name:var(--font-geist-sans)] tracking-tight">Automated Trading in DAX & S&P 500, Perfected</p>
             <p className="text-sm">
-              IndexNavigator is a fully autonomous trading bot focused on the DAX and S&P 500. Built for consistency and security, it delivers verified results through real-time market execution.
+              IndexNavigator is a fully autonomous long-biased trading bot focused on the DAX and S&P 500. Built for consistency and security, it delivers verified results through real-time market execution.{" "}
+                <a
+                href="/faq#why-share"
+                className="text-[var(--primary-solid)] hover:underline hover:underline-offset-4 transition-colors hover:text-[var(--primary-gradient-from)]"
+                >
+                Why do you share algo that is profitable?
+                </a>
             </p>
           </div>
 
@@ -101,8 +106,8 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
-              <span className="text-sm font-semibold">All time (updated 9 May 2025):</span>
-              <span className="text-sm font-bold text-green-600">+88.8% ROI</span>
+              <span className="text-sm font-semibold">All time (6 April → last update: 16 May 2025):</span>
+              <span className="text-sm font-bold text-green-600">+110.3% ROI</span>
             </div>
           </div>
           
@@ -119,13 +124,13 @@ export default function Home() {
               <div className="mb-1">
                 <span className="font-semibold text-sm/6">→ Precision Algorithms</span>
               </div>
-              <p className="text-sm/6">Tailored to DAX & S&P 500 behavior using proven technical signals.</p>
+              <p className="text-sm/6">Tailored to DAX & S&P 500 behavior using trend following patterns.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
                 <span className="font-semibold text-sm/6">→ 24/5 Automated Execution</span>
               </div>
-              <p className="text-sm/6">Runs during pre-market and market hours with no manual input.</p>
+              <p className="text-sm/6">Runs during pre-market and market hours with no manual input. 95% of the time does not leave positions overnight to reduce risk.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-3 hover:shadow-sm transition-shadow">
               <div className="mb-1">
@@ -169,11 +174,17 @@ export default function Home() {
               Experience Live Trading
             </a>
           </div>
-        </main>
-      </div>
+        </main>      </div>
       
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl">
-        <p className="text-xs text-gray-500">© 2025 <span className="text-[var(--primary-solid)]">IndexNavigator</span>. All rights reserved.</p>
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl mt-12 pt-6 border-t border-gray-100">
+        <p className="text-xs text-gray-500 text-center max-w-3xl">
+          <span className="font-semibold">Disclaimer:</span> Trading involves significant risk and is not suitable for all investors. Past performance is not indicative of future results. IndexNavigator's automated strategy carries specific risks related to algorithmic trading. The author does not provide any investing advice, and IndexNavigator is shared on the cTrader platform purely for educational purposes to demonstrate that it is possible to achieve positive returns using automated trading strategies. Any decisions you make based on information provided are at your own risk. The author is not responsible for any losses, damages, or other consequences resulting from trading activities or investment decisions.
+          <br /><br />
+          <span className="font-semibold">Learn more about trading risks:</span>{" "}
+          <a href="https://www.cftc.gov/LearnAndProtect/riskresources" target="_blank" rel="noopener noreferrer" className="text-[var(--primary-solid)] hover:underline">CFTC</a>{" "}|{" "}
+          <a href="https://www.fca.org.uk/investsmart/understanding-high-risk-investments" target="_blank" rel="noopener noreferrer" className="text-[var(--primary-solid)] hover:underline">FCA</a>{" "}|{" "}
+          <a href="https://www.investor.gov/introduction-investing/investing-basics/investment-products" target="_blank" rel="noopener noreferrer" className="text-[var(--primary-solid)] hover:underline">SEC</a>
+        </p>
       </footer>
     </div>
   );
