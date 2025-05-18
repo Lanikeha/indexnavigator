@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-6 pb-20 gap-8 sm:p-12 md:p-20">
-      <div className="w-full max-w-5xl mx-auto">        <nav className="flex flex-col w-full mb-6">
+export default function Home() {  return (
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-6 pb-24 gap-8 sm:p-12 sm:pb-28 md:p-20 md:pb-32">
+      <div className="w-full max-w-5xl mx-auto"><nav className="flex flex-col w-full mb-6">
           <h1 className="text-2xl font-bold font-[family-name:var(--font-geist-sans)] mb-3">IndexNavigator</h1>          <div className="flex gap-6 items-center">            <Link
               className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-[family-name:var(--font-geist-sans)] text-sm text-[var(--primary-solid)] transition-colors hover:text-[var(--primary-gradient-from)]"
               href="/faq"
@@ -104,11 +103,11 @@ export default function Home() {
                 <span className="text-xs font-medium mb-1">Dec</span>
                 <span className="text-xs text-gray-400"></span>
               </div>
-            </div>
-            <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
-              <span className="text-sm font-semibold">All time (6 April → last update: 16 May 2025):</span>
-              <span className="text-sm font-bold text-green-600">+110.3% ROI</span>
-            </div>
+            </div>            <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
+              <span className="text-sm font-semibold">All time:</span>              <span className="text-sm font-bold text-green-600">+110.3% ROI</span>            </div>          </div>
+          
+          <div className="text-xs text-gray-500 max-w-2xl w-full mx-auto sm:mx-0 -mt-3 text-right pr-4">
+            6 April → last update: 16 May 2025
           </div>
           
           <h2 className="text-xl font-bold mt-6 font-[family-name:var(--font-geist-sans)]">Key Features</h2>
@@ -163,8 +162,7 @@ export default function Home() {
               <span className="font-semibold">S&P 500 (US):</span> Targets intraday & swing trades during US hours.
             </li>
           </ul>
-          
-          <div className="flex gap-4 items-center flex-col sm:flex-row w-full justify-center sm:justify-start">          
+            <div className="flex gap-4 items-center flex-col sm:flex-row w-full justify-center sm:justify-start mb-10 sm:mb-16">          
             <a
               className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-gradient-to-r from-[var(--primary-gradient-from)] to-[var(--primary-gradient-to)] text-white gap-2 hover:opacity-90 font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto font-[family-name:var(--font-geist-sans)] shadow-sm"
               href="https://ct.spotware.com/copy/strategy/100843"
@@ -172,11 +170,10 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               Experience Live Trading
-            </a>
-          </div>
+            </a>          </div>
         </main>      </div>
       
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl mt-12 pt-6 border-t border-gray-100">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl mt-16 pt-8 pb-4 border-t border-gray-100">
         <p className="text-xs text-gray-500 text-center max-w-3xl">
           <span className="font-semibold">Disclaimer:</span> Trading involves significant risk and is not suitable for all investors. Past performance is not indicative of future results. IndexNavigator's automated strategy carries specific risks related to algorithmic trading. The author does not provide any investing advice, and IndexNavigator is shared on the cTrader platform purely for educational purposes to demonstrate that it is possible to achieve positive returns using automated trading strategies. Any decisions you make based on information provided are at your own risk. The author is not responsible for any losses, damages, or other consequences resulting from trading activities or investment decisions.
           <br /><br />
