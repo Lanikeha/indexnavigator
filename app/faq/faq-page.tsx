@@ -23,10 +23,9 @@ export default function FAQPage() {
         }, 2000);
       }
     }
-  }, []);
-  return (
-    <div className="grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-6 pb-20 gap-8 sm:p-12 md:p-20">
-      <div className="w-full max-w-5xl mx-auto">        <nav className="flex flex-col w-full mb-6">
+  }, []);  return (
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-6 pb-24 gap-8 sm:p-12 sm:pb-28 md:p-20 md:pb-32">
+      <div className="w-full max-w-5xl mx-auto"><nav className="flex flex-col w-full mb-6">
           <Link href="/" className="inline-block">
             <h1 className="text-2xl font-bold font-[family-name:var(--font-geist-sans)] mb-3 hover:text-[var(--primary-solid)] transition-colors">IndexNavigator</h1>
           </Link>          <div className="flex gap-6 items-center">            <Link
@@ -186,10 +185,9 @@ export default function FAQPage() {
               Experience Live Trading
             </a>
           </div>
-        </main>
-      </div>
+        </main>      </div>
       
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl mt-12 pt-6 border-t border-gray-100">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full max-w-5xl mt-16 pt-8 pb-4 border-t border-gray-100">
         <p className="text-xs text-gray-500 text-center max-w-3xl">
           <span className="font-semibold">Disclaimer:</span> Trading involves significant risk and is not suitable for all investors. Past performance is not indicative of future results. IndexNavigator's automated strategy carries specific risks related to algorithmic trading. The author does not provide any investing advice, and IndexNavigator is shared on the cTrader platform purely for educational purposes to demonstrate that it is possible to achieve positive returns using automated trading strategies. Any decisions you make based on information provided are at your own risk. The author is not responsible for any losses, damages, or other consequences resulting from trading activities or investment decisions.
           <br /><br />
