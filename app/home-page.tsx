@@ -104,10 +104,12 @@ export default function Home() {  return (
                 <span className="text-xs text-gray-400"></span>
               </div>
             </div>            <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
-              <span className="text-sm font-semibold">All time:</span>              <span className="text-sm font-bold text-green-600">+110.3% ROI</span>            </div>          </div>
-          
+              <span className="text-sm font-semibold">All time:</span>              
+              <span className="text-sm font-bold text-green-600">+116.0% ROI</span>            
+            </div>          
+          </div>
           <div className="text-xs text-gray-500 max-w-2xl w-full mx-auto sm:mx-0 -mt-3 text-right pr-4">
-            6 April → last update: 16 May 2025
+            6 April → last update: 23 May 2025
           </div>
           
           <h2 className="text-xl font-bold mt-6 font-[family-name:var(--font-geist-sans)]">Key Features</h2>
