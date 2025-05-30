@@ -73,11 +73,11 @@ export default function Home() {  return (
               </div>
               <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
                 <span className="text-xs font-medium mb-1">May</span>
-                <span className="text-xs text-gray-400">Pending</span>
+                <span className="text-xs text-gray-400">31.2%</span>
               </div>
               <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
                 <span className="text-xs font-medium mb-1">Jun</span>
-                <span className="text-xs text-gray-400"></span>
+                <span className="text-xs text-gray-400">Pending</span>
               </div>
               <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
                 <span className="text-xs font-medium mb-1">Jul</span>
@@ -105,7 +105,7 @@ export default function Home() {  return (
               </div>
             </div>            <div className="bg-gray-50 border-t border-gray-100 px-4 py-2 flex justify-between">
               <span className="text-sm font-semibold">All time:</span>              
-              <span className="text-sm font-bold text-green-600">+116.0% ROI</span>            
+              <span className="text-sm font-bold text-green-600">+90% ROI</span>            
             </div>          
           </div>
           <div className="text-xs text-gray-500 max-w-2xl w-full mx-auto sm:mx-0 -mt-3 text-right pr-4">
