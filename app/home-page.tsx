@@ -73,7 +73,7 @@ export default function Home() {  return (
               </div>
               <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
                 <span className="text-xs font-medium mb-1">May</span>
-                <span className="text-xs text-gray-400">31.2%</span>
+                <span className="text-sm font-bold text-green-600">31.2%</span>
               </div>
               <div className="flex flex-col items-center py-2 px-1 rounded bg-gray-50">
                 <span className="text-xs font-medium mb-1">Jun</span>
